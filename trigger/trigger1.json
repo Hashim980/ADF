@@ -1,0 +1,17 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/luckyblob/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/242e7e8d-bfc2-47b1-bc39-ba6471873666/resourceGroups/nizamazuredata/providers/Microsoft.Storage/storageAccounts/luckyalexblob",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

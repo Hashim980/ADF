@@ -1,0 +1,9 @@
+{
+	"name": "AdfLuckyPipelines",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "398615f6-9bea-41f2-8bf3-21de5b16ca06",
+		"tenantId": "6cd946bf-ba02-41fa-90e1-8e0ea3c940c7"
+	}
+}
